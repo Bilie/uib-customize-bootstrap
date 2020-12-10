@@ -1,0 +1,23 @@
+// Add custom fonts
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@300;400;700&display=swap');
+
+// Customize Bootstrap
+$font-family-base: 'Big Shoulders Inline Display', cursive;
+$primary: hotpink;
+$body-bg: #e7e7e7;
+// $spacer: 2rem;
+
+$display1-size:               10rem;
+$display2-size:               6.5rem;
+$display3-size:               5.5rem;
+$display4-size:               4.5rem;
+
+$display1-weight:             900;
+$display2-weight:             900;
+$display3-weight:             900;
+$display4-weight:             900;
+
+// Import Bootstrap (all)
+@import "../lib/bootstrap-4.5.3/scss/bootstrap.scss";
+
+// My custom styles
